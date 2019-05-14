@@ -10,8 +10,6 @@ Store.create name: "Yaletown", annual_revenue: 430000, mens_apparel: true, women
 
 puts Store.count
 
-@store1 = Store.find_by(id: 1)
-@store2 = Store.find_by(id: 2)
-@store3 = Store.find_by(id: 3)
+
 
 
