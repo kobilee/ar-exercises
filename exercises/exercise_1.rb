@@ -13,9 +13,5 @@ puts Store.count
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
 @store3 = Store.find_by(id: 3)
-pp @store1
-pp @store2
-pp @store3
-@store1.update(annual_revenue: 224001)
-@store1.save
-pp@store1
+
+
